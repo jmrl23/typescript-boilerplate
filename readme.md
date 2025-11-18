@@ -21,7 +21,7 @@ A simple boilerplate for TypeScript projects.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/typescript-boilerplate.git
+   git clone https://github.com/jmrl23/typescript-boilerplate.git
    ```
 
 1. Install dependencies:
