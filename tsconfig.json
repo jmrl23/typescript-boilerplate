@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "extends": "@tsconfig/recommended/tsconfig",
+  "include": ["src/"],
+  "ts-node": {
+    "swc": true
+  }
+}
