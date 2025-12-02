@@ -8,8 +8,5 @@
     }
   },
   "extends": "@tsconfig/node-lts/tsconfig",
-  "include": ["src/"],
-  "ts-node": {
-    "swc": true
-  }
+  "include": ["src/"]
 }
