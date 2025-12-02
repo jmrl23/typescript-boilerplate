@@ -1,9 +1,7 @@
-import dotenvx from '@dotenvx/dotenvx';
-
-dotenvx.config({ path: '.env' });
+import '@dotenvx/dotenvx/config';
 
 async function main() {
-  console.log(process.env.MESSAGE);
+  console.log(`Welcome to ${process.env.TEMPLATE_NAME}!`);
 }
 
 void main();
